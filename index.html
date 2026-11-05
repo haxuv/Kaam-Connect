@@ -1,114 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>LocalHandy - Home</title>
-    <style>
-        /* Simple Internal CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #0056b3;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            padding: 20px;
-            text-align: center;
-        }
-        .banner {
-            background-color: #e2e8f0;
-            padding: 40px;
-            margin-bottom: 20px;
-        }
-        .card {
-            background: white;
-            border: 1px solid #ccc;
-            width: 30%;
-            display: inline-block;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 5px;
-            text-align: left;
-            vertical-align: top;
-        }
-        .btn {
-            background-color: #0056b3;
-            color: white;
-            padding: 8px 12px;
-            text-decoration: none;
-            border-radius: 4px;
-            display: inline-block;
-            margin-top: 10px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 30px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaamConnect Home</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
-        <h1>LocalHandy Service Portal</h1>
+
+        <nav>
+            <h2>Kaam-Connect</h2>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="services.html">Services</a> </li>
+                <li> <a href="about.html">About Us</a> </li>
+                <li> <a href="book.html">Book a Service</a> </li>
+                <li> <a href="faqs.html">FAQs</a> </li>
+                <li> <a href="register.html">Register</a> </li>
+            </ul>
+
+    
+        </nav>
     </header>
+    <main>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="workers.html">Find Workers & Chat</a>
-        <a href="register.html">Register Worker</a>
-    </nav>
+    <section class="hero">
 
-    <div class="banner">
-        <h2>Find Local Workers Near You</h2>
-        <p>Easily discover carpenters, plumbers, and painters in your area.</p>
+        <div class="hero-content">
+            <h1>Find Trusted Workers Near You</h1>
+
+            <p>
+                Need a plumber, electrician, carpenter or painter?
+                Kaam-Connect helps you find local professionals
+                for your everyday needs.
+            </p>
+
+            <a href="services.html" class="hero-btn">
+                Explore Services
+            </a>
+        </div>
+
+    </section>
+    <section class="services">
+
+    <h2>Our Services</h2>
+    <p>Find the right professional for your needs</p>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <img src="images/plumber.png.jpeg" alt="">
+            <h3>Plumber</h3>
+            <p>Pipe repairs, leaks and fittings.</p>
+            
+        </div>
+
+        <div class="service-card">
+            <img src="images/electrician.png.jpeg" alt="">
+            <h3>Electrician</h3>
+            <p>Wiring, repairs and installations.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/carpenter.png.jpeg" alt="">
+            <h3>Carpenter</h3>
+            <p>Furniture, wooden doors and repairs.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/painter.png.jpeg" alt="">
+            <h3>Painter</h3>
+            <p>Home and wall painting.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/mechanic.png.jpeg" alt="">
+            <h3>Mechanic</h3>
+            <p>Bike and car repairs.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/general-services.png.jpeg" alt="">
+            <h3>More Services</h3>
+            <p>Explore additional home and repair services</p>
+            
+        </div>
+
     </div>
 
-    <div class="container">
-        <h3>Our Services</h3>
+</section>
+<section class="why-choose">
 
-        <div class="card">
-            <h4>Carpenter</h4>
-            <p>For furniture making, wooden door repairs, and locks.</p>
-            <a href="workers.html" class="btn">View Workers</a>
+    <h2>Why Choose Kaam-Connect?</h2>
+
+    <p>A simple and reliable way to get your home work done.</p>
+
+    <div class="features-container">
+
+        <div class="feature-card">
+            <img src="images/shield-check.svg" alt="">
+            <h3>Trusted Professionals</h3>
+            <p>Find reliable service providers for your needs.</p>
         </div>
 
-        <div class="card">
-            <h4>Plumber</h4>
-            <p>For pipe fittings, tap leaks, and water tank repairs.</p>
-            <a href="workers.html" class="btn">View Workers</a>
+        <div class="feature-card">
+            <img src="images/zap.svg" alt="">
+            <h3>Quick & Easy</h3>
+            <p>Find and book services in just a few clicks.</p>
         </div>
 
-        <div class="card">
-            <h4>Painter</h4>
-            <p>For wall painting, interior decor, and home polishing.</p>
-            <a href="workers.html" class="btn">View Workers</a>
+        <div class="feature-card">
+            <img src="images/users.svg" alt="">
+            <h3>Local Support</h3>
+            <p>Connect with nearby professionals.</p>
         </div>
+
+        <div class="feature-card">
+            <img src="images/headset.svg" alt="">
+            <h3>Wide Range of Services</h3>
+            <p>From home repairs to maintenance, all in one place.</p>
+        </div>
+
     </div>
 
-    <footer>
-        <p>CSE 326 Internet Programming Project</p>
-    </footer>
+</section>
+<section class="cta">
+    <img src="images/house_og.jpeg" alt="House">
+    <div class="cta-content">
 
+        <h2>Need a Service?</h2>
+
+        <p>Book a trusted professional today.</p>
+
+        <a href="book.html" class="cta-btn">Book a Service</a>
+
+    </div>
+
+</section>
+<footer>
+
+    <div class="footer-content">
+
+        <h2>Kaam-Connect</h2>
+
+        <p>Your trusted partner for local home services.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="register.html">Register</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Kaam-Connect. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+</main>
+    
 </body>
 </html>
