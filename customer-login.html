@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Customer Login | Kaam-Connect</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h2>Kaam-Connect</h2>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="services.html">Services</a> </li>
+                <li> <a href="about.html">About Us</a> </li>
+                <li> <a href="book.html">Book a Service</a> </li>
+                <li> <a href="faqs.html">FAQs</a> </li>
+                <li> <a href="register.html">Join/Login</a> </li>
+            </ul>
+
+    
+        </nav>
+    </header>
+    <main class="registration-section">
+
+    <div class="registration-heading">
+        <h1>Customer Login</h1>
+        <p>Welcome back! Login to access your Kaam-Connect account.</p>
+    </div>
+
+    <div class="registration-container">
+
+        <form onsubmit="alert('You have logged in successfully!'); this.reset(); return false;">
+
+            <div class="form-group">
+                <label for="customer-email">Email Address</label>
+                <input type="email" id="customer-email"
+                    placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-password">Password</label>
+                <input type="password" id="customer-password"
+                    placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        <p class="form-login">
+            Don't have an account?
+            <a href="customer-register.html">Register here</a>
+        </p>
+
+        <a href="login.html" class="back-link">
+            Back to login options
+        </a>
+
+    </div>
+
+</main>
+    <footer>
+
+    <div class="footer-content">
+
+        <h2>Kaam-Connect</h2>
+
+        <p>Your trusted partner for local home services.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="register.html">Register</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Kaam-Connect. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>

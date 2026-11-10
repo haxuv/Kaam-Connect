@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Customer Registration | Kaam-Connect</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h2>Kaam-Connect</h2>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="services.html">Services</a> </li>
+                <li> <a href="about.html">About Us</a> </li>
+                <li> <a href="book.html">Book a Service</a> </li>
+                <li> <a href="faqs.html">FAQs</a> </li>
+                <li> <a href="register.html">Join/Login</a> </li>
+            </ul>
+
+    
+        </nav>
+    </header>
+    <main class="registration-section">
+
+    <div class="registration-heading">
+        <h1>Customer Registration</h1>
+        <p>Create your account and get started with Kaam-Connect.</p>
+    </div>
+
+    <div class="registration-container">
+
+        <form onsubmit="alert('Your account has been created successfully!'); this.reset(); return false;">
+
+            <div class="form-group">
+                <label for="customer-name">Full Name</label>
+                <input type="text" id="customer-name"
+                    placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-email">Email Address</label>
+                <input type="email" id="customer-email"
+                    placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-phone">Phone Number</label>
+                <input type="tel" id="customer-phone"
+                    placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-location">Your Location</label>
+                <input type="text" id="customer-location"
+                    placeholder="Enter your city or area" required>
+            </div>
+
+            <div class="form-group">
+                <label for="customer-password">Password</label>
+                <input type="password" id="customer-password"
+                    placeholder="Create a password" require minlength="8">
+            </div>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+
+        <p class="form-login">
+            Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+
+        <a href="register.html" class="back-link">
+            Back to registration options
+        </a>
+
+    </div>
+
+</main>
+<footer>
+
+    <div class="footer-content">
+
+        <h2>Kaam-Connect</h2>
+
+        <p>Your trusted partner for local home services.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="register.html">Register</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Kaam-Connect. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>
+
