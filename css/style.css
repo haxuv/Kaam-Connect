@@ -927,9 +927,13 @@ footer {
     border-radius: 7px;
     font-size: 15px;
     cursor: pointer;
+
+    transition: all 0.3s ease;
 }
 .register-btn:hover {
     background-color: #102d59;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(21, 87, 210, 0.3);
 }
 
 /* .register-card button {
